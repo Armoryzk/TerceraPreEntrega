@@ -1,0 +1,37 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0; }
+
+/* estilos de inicio */
+.main-inicio .banner-inicio {
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  background-color: #192d2d; }
+
+.main-inicio h1 {
+  margin: 2rem; }
+
+/* estilos de nosotros */
+.main-nosotros {
+  text-align: center;
+  margin: 2rem; }
+  .main-nosotros .video-uno {
+    margin-bottom: 1rem; }
+  .main-nosotros .imagenes-todas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem; }
+
+/* estilos de contacto */
+.main-contacto .section-contacto {
+  margin: 3rem; }
+  .main-contacto .section-contacto div {
+    margin: 1rem; }
+  .main-contacto .section-contacto span {
+    font-size: large; }
+  .main-contacto .section-contacto .form {
+    margin: 1rem; }
